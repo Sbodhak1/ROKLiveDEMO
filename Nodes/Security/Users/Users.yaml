@@ -1,0 +1,264 @@
+Name: Users
+Id: g=08512960b077e6f9f1a845d5040340f7
+Type: FolderType
+Children:
+- Name: Guest
+  Id: g=30127e01c265b79f0a5a7c3bfb0526af
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=2e928a08b51ed93d2357a4d4d3dde795
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=a97c0df83002229e61cab42ddfd73b78
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[54,57,202,184,54,239,122,111,222,247,141,129,162,4,209,184,44,99,59,47,3,107,26,19,11,11,211,158,101,128,180,233],"Salt":[15,105,98,41,167,231,136,29,14,152,190,184,39,183,85,198,33,235,187,168,175,147,73,8,125,160,99,209,237,7,31,61]}}
+    - Name: ChangeTimestamp
+      Id: g=722e63667600637b33c1b79b79d36c80
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-06-24T09:31:58.4375559"
+    - Name: History
+      Id: g=af6f13faa8f6d77df3f6dce2d7911b56
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+- Name: John
+  Id: g=cc2e370b9294c77e8cbf939c5210a902
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=303eba619bf56dc7ff73e166e2a0557b
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: Languages
+    Id: g=c347230e5c6f4e0ebf0d08ba482c7187
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: MeasurementSystem
+    Id: g=c163e51d4a3cc3080ac39ad0d2240727
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+  - Class: Reference
+    Type: HasGroup
+    Target: g=d86b70fbc9d2403c7dfcdea963a47c1e
+  - Name: Password
+    Id: g=6305207c9d6b11d9c1f8774ce4705a5a
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=c7a49ce6edb6157ebdf1f2e2a900de85
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[118,51,248,55,225,223,182,136,1,129,123,138,82,20,57,99,211,151,8,118,14,119,204,5,121,112,154,78,247,213,114,216],"Salt":[27,121,210,117,236,245,37,124,224,235,166,111,103,249,28,89,14,103,4,29,88,34,166,21,180,121,135,229,75,237,143,59]}}
+    - Name: ChangeTimestamp
+      Id: g=18ed88b7080291e6d0aa4ed65e54b4ab
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-06-24T09:32:01.4786458"
+    - Name: History
+      Id: g=f4f3301631beebcee2d5284729e0a6a0
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+- Name: Tracy
+  Id: g=b07d09f993badf8a7c44abd5f7663f41
+  Type: UserType
+  Children:
+  - Name: MeasurementSystem
+    Id: g=2b9aac51752f6337da179f84c08ccafc
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 3
+  - Name: Languages
+    Id: g=bed6def13639bb3b5908782c9ef89e8f
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleIds
+    Id: g=c8a244ffcde29eb50290dcbfd36643e3
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=d5a5f6e737ff8a19e7e3e3b90cb9d19c
+  - Name: Password
+    Id: g=5edebf9b329966bd521262c0592429e3
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=0ef175953b250b4e70efb99a7ee6c7a6
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[18,36,146,17,179,7,177,195,88,102,83,5,212,110,85,240,43,119,32,251,196,96,135,21,141,154,119,46,177,39,233,86],"Salt":[112,189,205,131,107,53,195,124,89,193,110,114,106,106,79,15,33,161,205,92,95,58,230,240,58,10,145,61,217,22,95,127]}}
+    - Name: ChangeTimestamp
+      Id: g=6b70db4c7b7f1268406cf127d214bbe6
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-06-24T09:32:04.1313080"
+    - Name: History
+      Id: g=6c3d9321fcd46b6b4fe842a7ffaf4e07
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+- Name: Davide
+  Id: g=9dc1dfe206ed40f9031ed418e8c38428
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=cd021b42c77aba1e8b000d6c3680f7d5
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["it-IT"]
+  - Name: Languages
+    Id: g=c7afdec819143e695e89f21e50482341
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["it-IT"]
+  - Name: MeasurementSystem
+    Id: g=a27836b53f0ba53e9e33411e762eb04f
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=e8570f945b2fb58188b22a8d791ac0c4
+  - Name: Password
+    Id: g=2f3623825389011b9fc08a840ed494a5
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=05692d3a093e1c4140be6c80d0369249
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[135,57,154,1,176,173,22,156,98,237,171,241,223,201,17,182,128,241,115,131,180,135,226,14,88,224,119,12,244,126,116,88],"Salt":[135,133,27,151,132,123,246,150,15,13,166,181,137,3,29,92,109,245,104,244,230,93,87,185,196,232,73,100,36,3,97,239]}}
+    - Name: ChangeTimestamp
+      Id: g=df695b2206f5489db38483681cd55ceb
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-06-24T09:32:07.3206796"
+    - Name: History
+      Id: g=b8384bb106d723713f33f95fa8fdc3be
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+- Name: Yining
+  Id: g=d819a5603db29a41ef3aa9a4d11805b4
+  Type: UserType
+  Children:
+  - Name: Languages
+    Id: g=bf9b0906894d62f34ba734cba6923cc0
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["zh-CN"]
+  - Name: MeasurementSystem
+    Id: g=7201eb141a2f0fc2da207f40d1830635
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Name: LocaleIds
+    Id: g=04451883570469b9e835bd7682c48848
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["zh-CN"]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=d4e92c55cbc2bb657e94adef987183e5
+  - Name: Password
+    Id: g=f36a83c9f800c3a43272eca61cc9cbc8
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=1d18d1efdb2ea64434272d1802d73e0e
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[107,239,170,67,7,207,96,139,113,162,216,234,97,68,100,97,114,161,17,45,78,90,82,210,42,48,48,199,104,154,37,153],"Salt":[184,240,154,248,2,83,145,91,99,206,165,78,219,18,130,71,12,38,139,176,4,146,136,161,179,150,157,78,68,202,97,113]}}
+    - Name: ChangeTimestamp
+      Id: g=9e13a93dc6859632999a1c62feb8c6a3
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-06-24T09:32:10.1886301"
+    - Name: History
+      Id: g=4a09041390dee72890756658c9fc33b6
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
