@@ -61,7 +61,6 @@ Children:
     ReferenceType: HasProperty
     Value: 2
   - Class: Reference
-    Type: HasGroup
     Target: g=d86b70fbc9d2403c7dfcdea963a47c1e
   - Name: Password
     Id: g=6305207c9d6b11d9c1f8774ce4705a5a
@@ -118,7 +117,6 @@ Children:
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Class: Reference
-    Type: HasGroup
     Target: g=d5a5f6e737ff8a19e7e3e3b90cb9d19c
   - Name: Password
     Id: g=5edebf9b329966bd521262c0592429e3
@@ -175,7 +173,6 @@ Children:
     ReferenceType: HasProperty
     Value: 1
   - Class: Reference
-    Type: HasGroup
     Target: g=e8570f945b2fb58188b22a8d791ac0c4
   - Name: Password
     Id: g=2f3623825389011b9fc08a840ed494a5
@@ -232,7 +229,6 @@ Children:
     ArrayDimensions: [0]
     Value: ["zh-CN"]
   - Class: Reference
-    Type: HasGroup
     Target: g=d4e92c55cbc2bb657e94adef987183e5
   - Name: Password
     Id: g=f36a83c9f800c3a43272eca61cc9cbc8
