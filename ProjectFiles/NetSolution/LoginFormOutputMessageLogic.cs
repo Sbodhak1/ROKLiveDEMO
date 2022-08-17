@@ -1,6 +1,7 @@
 #region Using directives
 using FTOptix.NetLogic;
 using UAManagedCore;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class LoginFormOutputMessageLogic : BaseNetLogic {

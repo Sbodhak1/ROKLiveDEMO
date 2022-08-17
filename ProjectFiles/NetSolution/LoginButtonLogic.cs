@@ -3,6 +3,7 @@ using FTOptix.Core;
 using FTOptix.NetLogic;
 using System;
 using UAManagedCore;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class LoginButtonLogic : BaseNetLogic {
