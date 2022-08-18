@@ -1,26 +1,33 @@
 Name: Retentivity
+Id: g=589dd6389b9388f6b15897818e38e655
 Type: FolderType
 Children:
 - Name: SecurityFolder
+  Id: g=4dbc1ad94a9f233d768cdbd0b0b44dd3
   Type: RetentivityStorage
   Children:
   - Name: Nodes
+    Id: g=32fa65de65c5bbaa3fd3522ab6f224ba
     Type: BaseObjectType
     Children:
     - Name: Node1
+      Id: g=19a700201ebc4860e8d97e422be82f61
       Type: NodePointer
       DataType: NodeId
       Value: {"IdType":2,"Id":"cc97cc8100d922a59b5ba54b925eda13","Namespace":34}
       Children:
       - Name: Kind
+        Id: g=6d1ff33c9d6b0b1863a587321c88fd6a
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
+        Id: g=695de40605c27b0d3592dddf5d53befc
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
   - Name: WriteDelay
+    Id: g=aa5d48740d72af0556d669d87227391f
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty

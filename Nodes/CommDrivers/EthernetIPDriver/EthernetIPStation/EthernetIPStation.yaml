@@ -3,26 +3,32 @@ Id: g=346f841a8bed76bdc1453d634a3e2b43
 Type: EthernetIPStation
 Children:
 - Name: MaximumJobSizeInBytes
+  Id: g=52967d9feac9a6d25eec03585822f459
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 504
 - Name: IPAddress
+  Id: g=0473e46068e5f33bea404ae898baf543
   Type: BaseDataVariableType
   DataType: String
   Value: "192.168.0.104"
 - Name: Port
+  Id: g=bc97a0222dd36534decd273c1d474c90
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 44818
 - Name: Timeout
+  Id: g=2d81c56deb71b01cf35a585e0ca91207
   Type: BaseDataVariableType
   DataType: Duration
   Value: "0:00:01:0.0000000"
 - Name: PhysicalAddressOptimization
+  Id: g=0c6e4767f2b07e39a8bd92a8b4c69b32
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
 - Name: OperationCode
+  Id: g=bc45860d7606bfe04ddab5ee98a4e8c6
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
@@ -47,6 +53,7 @@ Children:
   Direction: Forward
 - File: Tags/Tags.yaml
 - Name: Types
+  Id: g=305ca166cc40ee110c756c7ff8fe7e0e
   Type: BaseObjectType
   Children:
   - Name: P_Motor1
@@ -54,1307 +61,1597 @@ Children:
     Supertype: TagStructure
     Children:
     - Name: EnableIn
+      Id: g=80598760960336427b682e0282869aa2
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=21b837c0539928a49a0f92056cdf21d0
         Type: BaseDataVariableType
         DataType: String
         Value: "EnableIn"
     - Name: EnableOut
+      Id: g=d9f3f3049a2b3c598663cf6bd183332f
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=cf942dcbaed53efc5b010b56f8d3faa0
         Type: BaseDataVariableType
         DataType: String
         Value: "EnableOut"
     - Name: Inp_RunFdbk
+      Id: g=6ba69ce31550d17a56aaa37e7bcba977
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=e6a835d2d1e7386e36d7add3264a9e48
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_RunFdbk"
     - Name: Inp_PermOK
+      Id: g=96913a3bcea92b93a9c0bc24c814be77
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=7378a3806d74f3fcae44aff7b282b5e9
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_PermOK"
     - Name: Inp_NBPermOK
+      Id: g=d808651532a15320172ce6a569050430
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=380fe6c049f730ecbf3c7d0efdc7c746
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_NBPermOK"
     - Name: Inp_IntlkOK
+      Id: g=6b223c0848c1dc2d399d927aefabf2bc
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6bc59cc297de5addf59f3e9c2c11f351
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_IntlkOK"
     - Name: Inp_NBIntlkOK
+      Id: g=9bb4d2069480ac367495187a26beabc5
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6725c65a61d052c59993527d7017ed00
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_NBIntlkOK"
     - Name: Inp_IOFault
+      Id: g=348eabac5199f7e1c6395d5566495547
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=eef2fee90b589828f11bf769a82eb192
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_IOFault"
     - Name: Inp_Sim
+      Id: g=367f3e0c6fa79b905cbb9aa087ea36c9
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=0b05006a126b6378679eab8548890c8c
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_Sim"
     - Name: Inp_Hand
+      Id: g=e8a4119b4a3548d19dcf393b6166efca
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=cf3bba584196d5d7543d7d9d58a3da6e
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_Hand"
     - Name: Inp_Ovrd
+      Id: g=1cbffd1ae64d3628c5fe858983d1c1e3
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=0f84271da6ff055a986746bda4a36c89
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_Ovrd"
     - Name: Inp_OvrdCmd
+      Id: g=bff55c2454aba60d994862829698a304
       Type: EthernetIPTag
       DataType: Int32
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=0cce3a6cae22ffa1eb77ac1a6ab85719
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_OvrdCmd"
     - Name: Inp_Reset
+      Id: g=106469a310fd6eccf43b0bc6b69da8a0
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=56eccbcb0d8dea686792acf720a202e6
         Type: BaseDataVariableType
         DataType: String
         Value: "Inp_Reset"
     - Name: Cfg_HasRunFdbk
+      Id: g=b6257bf40d397184a7f0ba51460417f0
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=730c85baa287700fb479a8074bde0a5e
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasRunFdbk"
     - Name: Cfg_UseRunFdbk
+      Id: g=4572edeca7be224a1b9f48a2a4a826bb
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=e524cb7948184c62e03d1967a95c9f7f
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_UseRunFdbk"
     - Name: Cfg_AllowLocal
+      Id: g=2bbd224efbd3ccb33ab1716b522c7517
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=933aa8488d1c6cf16bad7125cba96733
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_AllowLocal"
     - Name: Cfg_HasPermObj
+      Id: g=e4b2082ce91d646e11485338d6ba6648
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=a8a10ebc5bf668e5b2a801fb4c3f380d
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasPermObj"
     - Name: Cfg_HasIntlkObj
+      Id: g=93d6a62067059dc5d5ea4f45de8a8d82
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=1930a2f511f1568f026acbc05eaffe5a
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasIntlkObj"
     - Name: Cfg_HasResInhObj
+      Id: g=ad8f9dae73fa06bcb721e1822ab055d3
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=72754241a7587ec036794fad9dff07a5
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasResInhObj"
     - Name: Cfg_HasRunTimeObj
+      Id: g=747e7cd3bc0c356fd062998610a25d9d
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=c86ed3ad0fa950c1ae99cca91d356264
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasRunTimeObj"
     - Name: Cfg_HasOvldObj
+      Id: g=fb66c4f3593a95857197a1ad465ad2b7
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6ea17702c56b58a67849bc88a3d5f4f3
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasOvldObj"
     - Name: Cfg_PCmdClear
+      Id: g=688c445fd88ed16bc51bc58f00811d13
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=3000e1b58476f848c4a21176a4ffa7ca
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_PCmdClear"
     - Name: Cfg_ProgDefault
+      Id: g=04ae0593551b08b847ba9609744b040c
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=385b61d6f5c29c84d77727173b86191c
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_ProgDefault"
     - Name: Cfg_OperStopPrio
+      Id: g=d859010794b610199eba3d788b7767bb
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=138e8aac5ec4fe01f7ecbf8b1c248936
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_OperStopPrio"
     - Name: Cfg_OCmdResets
+      Id: g=9f2d69afba5abe01f96796db82a13c7c
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=afe8ee8f718599ccb09f9a4eba103e6f
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_OCmdResets"
     - Name: Cfg_OvrdPermIntlk
+      Id: g=4266a3b01ba8d7216a618457018625d1
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=fa9ed1065d62a2edce391a3335b55f31
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_OvrdPermIntlk"
     - Name: Cfg_ShedOnFailToStart
+      Id: g=19cd57d09e2904e28b41fc6fa3726434
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=1d5afaead6efb74c2309b0fe2a88fcef
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_ShedOnFailToStart"
     - Name: Cfg_ShedOnIOFault
+      Id: g=0ed89e1f7bc0a31acfcbd4995e29ae6c
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=bc7488dfa399de65ae797614e6c06178
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_ShedOnIOFault"
     - Name: Cfg_HasFailToStartAlm
+      Id: g=dbbb27136c11c74d95faf2875f0687bf
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=163c01d483daafd2d8a61f480e01a8a8
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasFailToStartAlm"
     - Name: Cfg_HasFailToStopAlm
+      Id: g=aca5f19915511d9b5b080aa30b9f5a09
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=b6e2002cec5f7340763e04772b5ffe32
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasFailToStopAlm"
     - Name: Cfg_HasIntlkTripAlm
+      Id: g=ee7fc817d53068dfc5421092058149ef
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=47e76071209b00dbed9a0737793d225f
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasIntlkTripAlm"
     - Name: Cfg_HasIOFaultAlm
+      Id: g=e38364a63058daa1fa9d6a740291501b
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=2097da0bbb8c7bb927c347e0f6f89f38
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_HasIOFaultAlm"
     - Name: Cfg_FailToStartResetReqd
+      Id: g=ff9da070fef268dc6073065452be30a6
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=2ec34719ef87cda342a55fd224bb6b23
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_FailToStartResetReqd"
     - Name: Cfg_FailToStopResetReqd
+      Id: g=18ac837613ba2accdfdb55ef18324ad7
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=45469a332761e3aba3241c7a38f2ae9a
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_FailToStopResetReqd"
     - Name: Cfg_IntlkTripResetReqd
+      Id: g=f4cbfa2423f1f08c48c98fb2f1c6da10
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=25a0a9f1da08cbcbc1a93a87a564f672
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_IntlkTripResetReqd"
     - Name: Cfg_IOFaultResetReqd
+      Id: g=902a8bef5abdda504708b0881dfec38c
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=b64be44e70341f9a566f939d33ea6b69
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_IOFaultResetReqd"
     - Name: Cfg_FailToStartAckReqd
+      Id: g=b8cc5de5ca0fc2b4d4234143d5db9e5d
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=3d6cf7b41d44f3b44605c6bdf40614f9
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_FailToStartAckReqd"
     - Name: Cfg_FailToStopAckReqd
+      Id: g=5b936193860186d05062d80a966e6c04
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=f4e0d71993c199e33edc3c53e24e80f1
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_FailToStopAckReqd"
     - Name: Cfg_IntlkTripAckReqd
+      Id: g=f90cc092eacad6db7b5d2360afea9998
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=2f660eb18daf60f9a115faad258e4809
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_IntlkTripAckReqd"
     - Name: Cfg_IOFaultAckReqd
+      Id: g=eeb468e32dc2507a64689df62371dbe4
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6215c098307fa187675e4a57faa4a77d
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_IOFaultAckReqd"
     - Name: Cfg_FailToStartSeverity
+      Id: g=76de8cf7ed371afa98677da4619c0cf7
       Type: EthernetIPTag
       DataType: SByte
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=5f0d531774852b65f2c0361806d9ede9
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_FailToStartSeverity"
     - Name: Cfg_FailToStopSeverity
+      Id: g=d6fb1a17a7e53aa8d0b5c15ce4f43d68
       Type: EthernetIPTag
       DataType: SByte
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=f42afcd41657a7f7929b5e6ebeefa2bf
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_FailToStopSeverity"
     - Name: Cfg_IntlkTripSeverity
+      Id: g=b087ff2cd43f2ca737d0dcb1079b2e73
       Type: EthernetIPTag
       DataType: SByte
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=aa4b6e2e817f95f903f71d4a70a82681
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_IntlkTripSeverity"
     - Name: Cfg_IOFaultSeverity
+      Id: g=c52c061719592d79696e77b2e4fe737f
       Type: EthernetIPTag
       DataType: SByte
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=4f21635237b5c91b9710b0deec44a8cd
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_IOFaultSeverity"
     - Name: Cfg_SimFdbkT
+      Id: g=d55ce0e29b5aab8817656db6b0eb284d
       Type: EthernetIPTag
       DataType: Int32
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=92163c2b0ab5accf3d42c8a64ebdb707
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_SimFdbkT"
     - Name: Cfg_FailToStartT
+      Id: g=9f84a525218af64773d2147a83f25242
       Type: EthernetIPTag
       DataType: Int32
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=74ad63c579a22ef1a460a8b6eb5b4f33
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_FailToStartT"
     - Name: Cfg_FailToStopT
+      Id: g=9e81e9c750fb0cca37e1bcd85be2228a
       Type: EthernetIPTag
       DataType: Int32
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=825ad2268db99f5ca97cbed79b066357
         Type: BaseDataVariableType
         DataType: String
         Value: "Cfg_FailToStopT"
     - Name: PSet_Owner
+      Id: g=3c3428df44b0086fa0241cd0196d05f2
       Type: EthernetIPTag
       DataType: Int32
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=fceee1a48b453c402be32de92980a246
         Type: BaseDataVariableType
         DataType: String
         Value: "PSet_Owner"
     - Name: PCmd_Start
+      Id: g=2064bcb14dea8b448248a7ac7b761da9
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=4edf47ef55ff21e2f74fd74cb95f5b66
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_Start"
     - Name: PCmd_Stop
+      Id: g=5e382312cee5818993c295fac9446ee8
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=3d2256ff0625354f336ed2b7b34809a6
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_Stop"
     - Name: PCmd_Acq
+      Id: g=065623b6e5b105770c60fa7235fda139
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=adb62d698eda96d0308acc438d8ccc87
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_Acq"
     - Name: PCmd_Rel
+      Id: g=e7f20bd1fbb260e1cd65a7ed96bf9545
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=42ee0d56931139ba2d0a554ac8fceabf
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_Rel"
     - Name: PCmd_Lock
+      Id: g=fe686eb4e863f1bfd9c726c6e7ae2d90
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=67f66b8f7e42dc88995724a4743c3e06
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_Lock"
     - Name: PCmd_Unlock
+      Id: g=212c8d971a67f43bfb8df56ce35f9e29
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=554a60feafec99219d5acc4f64e300ce
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_Unlock"
     - Name: PCmd_Reset
+      Id: g=89b71d14321fa66eeb96b78018bc6530
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=7c2f0780f1d6f076c9cde420d9a337fb
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_Reset"
     - Name: PCmd_FailToStartAck
+      Id: g=4898ecf18add2cc64e89fd947482c68f
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=0d29bb6775873f40c80552761250b386
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_FailToStartAck"
     - Name: PCmd_FailToStartSuppress
+      Id: g=ae8696c05be8a8c5b4931c4f25907604
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=52cd04446f9b6fa638496d1b8d6b4849
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_FailToStartSuppress"
     - Name: PCmd_FailToStartUnsuppress
+      Id: g=da67d2afdd749ead4667379ef9159286
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=99d9e35e2afc0db4aabbf9170fa8979a
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_FailToStartUnsuppress"
     - Name: PCmd_FailToStartUnshelve
+      Id: g=35381c8bb6a25db6d9a5c2def7267b12
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=5745c0967eb80745b430fe03a59df0d9
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_FailToStartUnshelve"
     - Name: PCmd_FailToStopAck
+      Id: g=dc5ad6f117fe5e4889931e11c5070136
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=c30a2909ffd32f9ec5872a3e264d87a4
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_FailToStopAck"
     - Name: PCmd_FailToStopSuppress
+      Id: g=2f4e722acb82fd842c8e973204889929
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=ad3fa8a9e5c519802a2a70aee7696572
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_FailToStopSuppress"
     - Name: PCmd_FailToStopUnsuppress
+      Id: g=93632994449204de15fd3a88e00e63ce
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=21ae987abcbc232897e13e16bb94df1b
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_FailToStopUnsuppress"
     - Name: PCmd_FailToStopUnshelve
+      Id: g=2f77e5a200f1bcd17bb5c61bcb702ca2
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=a303845fc4c67bfb62b83c6e2e2907da
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_FailToStopUnshelve"
     - Name: PCmd_IntlkTripAck
+      Id: g=60fa5a943e775782304f65b817685082
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=4bcef6a54548af80ab963311695eff7a
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_IntlkTripAck"
     - Name: PCmd_IntlkTripSuppress
+      Id: g=cc667992c3dd07ca1c8aff279c035684
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=31b528d75e16e2da0b73c220527f40e0
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_IntlkTripSuppress"
     - Name: PCmd_IntlkTripUnsuppress
+      Id: g=20ea39b70703cef245b5c6841d8b23f5
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=f3032af5ee6a7ad618bc2bf2c6388c0b
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_IntlkTripUnsuppress"
     - Name: PCmd_IntlkTripUnshelve
+      Id: g=6acd7c2772892d1ddc4d11545d4dc54b
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=aa18a51b55583a7542abdc61c5d0b1f1
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_IntlkTripUnshelve"
     - Name: PCmd_IOFaultAck
+      Id: g=e7ef8ad9c1005382bb5f17d6dcaab624
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=72928a9773bb50dd06671be496679d83
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_IOFaultAck"
     - Name: PCmd_IOFaultSuppress
+      Id: g=5f1c1430714b40ea846dfa5a17466530
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=1b323d57cac12069862aec6efbc40e47
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_IOFaultSuppress"
     - Name: PCmd_IOFaultUnsuppress
+      Id: g=56f6fdcd551ac0fd9949ec52c15fb2a6
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=5dc0502c867ffdec16aa4aad1261985c
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_IOFaultUnsuppress"
     - Name: PCmd_IOFaultUnshelve
+      Id: g=f60f40665a64ce00aadfaca861bfbef2
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=d222a0592e1df55bf0bb5041adaa9e92
         Type: BaseDataVariableType
         DataType: String
         Value: "PCmd_IOFaultUnshelve"
     - Name: OCmd_Start
+      Id: g=5809b97236fd537235ac79f8ae9ee23d
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=07db1a1ddfb15b761a3b386dc9ca25d8
         Type: BaseDataVariableType
         DataType: String
         Value: "OCmd_Start"
     - Name: OCmd_Stop
+      Id: g=289737ed69fde110800868d57d63dbb3
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=b6b5059a82eabfbead27def3b26858a5
         Type: BaseDataVariableType
         DataType: String
         Value: "OCmd_Stop"
     - Name: OCmd_Bypass
+      Id: g=01865c88e8db488b6e03873e3b7397fe
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=73781961a6f75b0239e2bf7de2f68b1c
         Type: BaseDataVariableType
         DataType: String
         Value: "OCmd_Bypass"
     - Name: OCmd_Check
+      Id: g=587b3b658acf96634ef174c993c239d6
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6d87b6a76cdbd3a13b436e2a7500241c
         Type: BaseDataVariableType
         DataType: String
         Value: "OCmd_Check"
     - Name: MCmd_Disable
+      Id: g=42eb796d2bd44c6f74fceefe429e201a
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=9b7a1f38d6fe9b7492ca52c399bb8be2
         Type: BaseDataVariableType
         DataType: String
         Value: "MCmd_Disable"
     - Name: MCmd_Enable
+      Id: g=c648be1c9469501bc26f301b9297d57a
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=b842d2df6f912b9d0ca4613293445099
         Type: BaseDataVariableType
         DataType: String
         Value: "MCmd_Enable"
     - Name: OCmd_AcqLock
+      Id: g=91b9da89ba57bab46db605a50993ad7e
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=49244b9168442ade92088d5baff4033e
         Type: BaseDataVariableType
         DataType: String
         Value: "OCmd_AcqLock"
     - Name: OCmd_Unlock
+      Id: g=84fb17f269094d3a5707686bb958681a
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=7c58edc1f7705716f424204275999197
         Type: BaseDataVariableType
         DataType: String
         Value: "OCmd_Unlock"
     - Name: OCmd_Reset
+      Id: g=378bed1274598fe1d8eb4db9ae4d4cb5
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=17622a11eada5f01820c15408b755cd1
         Type: BaseDataVariableType
         DataType: String
         Value: "OCmd_Reset"
     - Name: OCmd_ResetAckAll
+      Id: g=8335ce634780f6b8b55893299b5e28fe
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=0874ef7e7713530514983fea9ae44370
         Type: BaseDataVariableType
         DataType: String
         Value: "OCmd_ResetAckAll"
     - Name: Out_Run
+      Id: g=6400376579d614f0a20ce2a938fcbda3
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=c066340aa9a9be68729e497e5d6fb22d
         Type: BaseDataVariableType
         DataType: String
         Value: "Out_Run"
     - Name: Out_Start
+      Id: g=f5b290db617ad182ada4ca1e0f431dae
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=f09ae6a457ee8ef5f96377e5efabdad6
         Type: BaseDataVariableType
         DataType: String
         Value: "Out_Start"
     - Name: Out_Stop
+      Id: g=80436c200666d0dcb2dc3092cab08e5d
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=c0dcc81ff3ea60c5c512998d696f9e6a
         Type: BaseDataVariableType
         DataType: String
         Value: "Out_Stop"
     - Name: Val_Cmd
+      Id: g=cb91bc0fb8b545bebc73085d1a75cc75
       Type: EthernetIPTag
       DataType: SByte
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=a15ff72abe9bee70b62d18b6f9219977
         Type: BaseDataVariableType
         DataType: String
         Value: "Val_Cmd"
     - Name: Val_Fdbk
+      Id: g=6e81b19bb1016c6883d8a0749fb7ef29
       Type: EthernetIPTag
       DataType: SByte
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=984a7ebe0df33d385f96d967a0a980b3
         Type: BaseDataVariableType
         DataType: String
         Value: "Val_Fdbk"
     - Name: Val_Sts
+      Id: g=b1d5d582b6caf6f52932fa613e63c143
       Type: EthernetIPTag
       DataType: SByte
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=274bac38711f5c6afa8398b3383c0efd
         Type: BaseDataVariableType
         DataType: String
         Value: "Val_Sts"
     - Name: Val_Fault
+      Id: g=5e993aecc993c491a71f5adf628f66cc
       Type: EthernetIPTag
       DataType: SByte
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=e47a9bb7dd9aaa4b237868f1bca5ed2b
         Type: BaseDataVariableType
         DataType: String
         Value: "Val_Fault"
     - Name: Val_Mode
+      Id: g=14a75aac633229e5d7d28517e40e85ac
       Type: EthernetIPTag
       DataType: Int32
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=63b906d822eeb9b765f158c6340941b2
         Type: BaseDataVariableType
         DataType: String
         Value: "Val_Mode"
     - Name: Val_Owner
+      Id: g=8004508130d127573c247e66a07ae5f0
       Type: EthernetIPTag
       DataType: Int32
       Value: 0
       Children:
       - Name: SymbolName
+        Id: g=51eb7c8af4deffccae2b19a8c748c6a5
         Type: BaseDataVariableType
         DataType: String
         Value: "Val_Owner"
     - Name: Sts_Stopped
+      Id: g=6fe9dae34a6f02d1ed5ed1fca04515f8
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=b6804d81748d51c631669e820cb94e2b
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Stopped"
     - Name: Sts_Starting
+      Id: g=7d7c87cb341a9f40e80c9c8b10305d75
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6197bdac16fc146ef4b24218a85a7e0c
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Starting"
     - Name: Sts_Running
+      Id: g=26a3bdcbc816dbccf8b3319f40b5ff59
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=972cab54effdcd1ac8ae4367dbd54433
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Running"
     - Name: Sts_Stopping
+      Id: g=c45be38f7b7b153101055204bcd46d50
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=8bf5522f39e949f89ac6789af4c5e2fc
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Stopping"
     - Name: Sts_Available
+      Id: g=0c370f2ebf4faf72cd2325a2f325aa0f
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=4e305930f47277dd9000c48050f21a77
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Available"
     - Name: Sts_Bypass
+      Id: g=c4308aac8b410b204305b42a6b836491
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=cf96560ccec5bad5240d647f77e6d666
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Bypass"
     - Name: Sts_BypActive
+      Id: g=1e06e762480eda7ab07e4a8aca847b50
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=ee3aa7d5537157f871df79e7cd58d440
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_BypActive"
     - Name: Sts_Disabled
+      Id: g=188f62af9fec36fbdfa2ef2ead210ee2
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=53746545ec7672db9007af770e893e96
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Disabled"
     - Name: Sts_NotRdy
+      Id: g=334c059f5122e79ea83f826ab18e3ef7
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=bf99d78a3b04826a86651b24081ab112
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_NotRdy"
     - Name: Sts_MaintByp
+      Id: g=00746fa0cc36e81359b7d44367a2b565
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6e857ea008c5dcf793a054d552f2bdc9
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_MaintByp"
     - Name: Sts_AlmInh
+      Id: g=f460a8d7fca9df12a31f1aad0e71b44d
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=62099276eb6e3710a18d761ca7a297ae
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_AlmInh"
     - Name: Sts_Err
+      Id: g=2d99a2c9e2f7ede6ffd78ec182192541
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=2923cff18e72d1a4dbd7b5aa7e4028b4
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Err"
     - Name: Err_Timer
+      Id: g=d984c50a5fa157e750f3823f5dd596ad
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=81adf116d874f38e19d632811f7dd6de
         Type: BaseDataVariableType
         DataType: String
         Value: "Err_Timer"
     - Name: Err_Sim
+      Id: g=9967e96ace7a5baf35de24e001e935f2
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=9a2f15bd27840202830d3310cd607a39
         Type: BaseDataVariableType
         DataType: String
         Value: "Err_Sim"
     - Name: Err_Alarm
+      Id: g=54a3a0451e549a4f4a7a8313263539ef
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=05b57342e05ef3b753491b3e718a0d43
         Type: BaseDataVariableType
         DataType: String
         Value: "Err_Alarm"
     - Name: Sts_Hand
+      Id: g=4c1e9d7e5991ac27fa1103053aea8215
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=1475f3456db77c2a5d3964f6d83fb8ff
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Hand"
     - Name: Sts_Maint
+      Id: g=d5dd571b54d870779259bf9e51f08f7e
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=e1d13b18e02d2bb8653bdc17b1f994cb
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Maint"
     - Name: Sts_Ovrd
+      Id: g=c79bb3f45de41eb029103a0f721aba30
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=5cd7ee5d3b7f535d3f67b1a792688fc3
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Ovrd"
     - Name: Sts_Prog
+      Id: g=f1da19fc6c6270b2fa8ea3014439d780
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=529c4b75611ad272ceeac048507b7153
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Prog"
     - Name: Sts_Oper
+      Id: g=18ac8791611ee89b607acac998fdc890
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=ca6f6852ed5ee433ed137ba7937465d2
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_Oper"
     - Name: Sts_ProgOperLock
+      Id: g=dac0253e20a64aa6c3cfaaa170688e63
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=477ac0857dfaa449bbfd489f80c7772c
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_ProgOperLock"
     - Name: Sts_NoMode
+      Id: g=03a7f7f98da18680b7360349120d19a2
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=a7d73b3c141bbf7a3c0760f1baac916a
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_NoMode"
     - Name: Sts_FailToStart
+      Id: g=0a95b63bc86eb244a2e66f2276082e4d
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6272ddb1106f7d58475032148b6980eb
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_FailToStart"
     - Name: Alm_FailToStart
+      Id: g=d8a1c1ce2cce5c9ebce7d5490112f090
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=9d5744b86561d4c1040a9d8b88fec65f
         Type: BaseDataVariableType
         DataType: String
         Value: "Alm_FailToStart"
     - Name: Ack_FailToStart
+      Id: g=de1a5b60f66381033dc0677e56cc85a9
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=27be0863b9ed5781c4123d15849313eb
         Type: BaseDataVariableType
         DataType: String
         Value: "Ack_FailToStart"
     - Name: Sts_FailToStartDisabled
+      Id: g=c4c93273e034db9048c10fd4537a35f1
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=f642fd7311a500f2222698a58482e6c5
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_FailToStartDisabled"
     - Name: Sts_FailToStartShelved
+      Id: g=587fa5fe2eba21c9b7476fb8ca6199c3
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=25d2ac759d0ca533b5d0a549a3c7784c
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_FailToStartShelved"
     - Name: Sts_FailToStartSuppressed
+      Id: g=56d97dab82de5edaa91654715a4f4ad5
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6aa5d85b8452262fa543774c027c69d4
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_FailToStartSuppressed"
     - Name: Sts_FailToStop
+      Id: g=2be9fd9c33f2a580df91a41c469f8e08
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=9706218eae3ab3a1b8cf1464f7bf61a9
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_FailToStop"
     - Name: Alm_FailToStop
+      Id: g=5826aea35a4b35d1282d3f894a4bb55a
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=9363feae821605176c45ab2e66e4c744
         Type: BaseDataVariableType
         DataType: String
         Value: "Alm_FailToStop"
     - Name: Ack_FailToStop
+      Id: g=894cb043628b0dcaefafcc7e2a2a37ee
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=7e4c8271268713bb613fcff18e907aaf
         Type: BaseDataVariableType
         DataType: String
         Value: "Ack_FailToStop"
     - Name: Sts_FailToStopDisabled
+      Id: g=c48b5188946b21ee8ea8b931f1c84cb1
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=085f0fe7322cdf1769197006959cf027
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_FailToStopDisabled"
     - Name: Sts_FailToStopShelved
+      Id: g=17abbf025c3481e3a8cd3ebf64931888
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=8f0551660d82beb72b762a00a9ee2af2
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_FailToStopShelved"
     - Name: Sts_FailToStopSuppressed
+      Id: g=9d962cc6604c6778754209ee17987088
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=589336200e880960121b369f59c356c5
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_FailToStopSuppressed"
     - Name: Sts_IntlkTrip
+      Id: g=23b983c07cdf958c91a1aa4fbc1ad034
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=10eb435c53ddb23907f202a7e2409566
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_IntlkTrip"
     - Name: Alm_IntlkTrip
+      Id: g=4bdc0275e05ae4c7cc2a35fbf9de6d8c
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=3f70b0140a4e944440c086f104fd8cc7
         Type: BaseDataVariableType
         DataType: String
         Value: "Alm_IntlkTrip"
     - Name: Ack_IntlkTrip
+      Id: g=459f7e1b2597025e047c3ccb9d1792ac
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=18d325a8de69364dfbd9773eb4d5a3f8
         Type: BaseDataVariableType
         DataType: String
         Value: "Ack_IntlkTrip"
     - Name: Sts_IntlkTripDisabled
+      Id: g=99d730109f17cdb7d1b2d245a55149b6
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=932269758d71bc583c1201dda838292b
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_IntlkTripDisabled"
     - Name: Sts_IntlkTripShelved
+      Id: g=4f2850ed8b6c08aaf3034df49282dcf0
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=a574269ee80eaa0f0129379f2581c1db
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_IntlkTripShelved"
     - Name: Sts_IntlkTripSuppressed
+      Id: g=b7c76e1c2b4d72006f4aaa781b9e2085
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=addc2d13580eb045f5f1129fca15869c
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_IntlkTripSuppressed"
     - Name: Sts_IOFault
+      Id: g=23a430333e588a7600ac4126465824fd
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=4e322d1eb8805b52b2ef2c5feeca26de
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_IOFault"
     - Name: Alm_IOFault
+      Id: g=15bca3dd3f0bc7b13d091cb90fce8af5
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=4103ee1957024a56466b0724a56d2f05
         Type: BaseDataVariableType
         DataType: String
         Value: "Alm_IOFault"
     - Name: Ack_IOFault
+      Id: g=b99bd914a6594b3626b22564390b7283
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=47f462e8bf1432ffc5d62928070b0e4a
         Type: BaseDataVariableType
         DataType: String
         Value: "Ack_IOFault"
     - Name: Sts_IOFaultDisabled
+      Id: g=99cf785b12e50555aa519d6bdd8f8142
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=42f732b2b9903922f3fec70de6852444
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_IOFaultDisabled"
     - Name: Sts_IOFaultShelved
+      Id: g=0ef6e8d9ac1c74ad52c68e632eecd3bf
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=fb69ff8ba10842356e71b939cc83be79
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_IOFaultShelved"
     - Name: Sts_IOFaultSuppressed
+      Id: g=673842fa8bcacf63125332c8ee1f1259
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=a673ecc4907a7da655cfdc526bfcff00
         Type: BaseDataVariableType
         DataType: String
         Value: "Sts_IOFaultSuppressed"
     - Name: Rdy_Start
+      Id: g=c703a114a77ff4566ecd1e76f866e8fd
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=6da044ad6c90f419c2a84bf943d1811c
         Type: BaseDataVariableType
         DataType: String
         Value: "Rdy_Start"
     - Name: Rdy_Stop
+      Id: g=35048c283d6207d7dc752522c32f7365
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=1810ea97de2b06edbc9f756bd3a22981
         Type: BaseDataVariableType
         DataType: String
         Value: "Rdy_Stop"
     - Name: Rdy_Bypass
+      Id: g=c1c883b5dbd130ddf4276a63b01f3d74
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=76a800297f35b515f54e1deefdcecfd7
         Type: BaseDataVariableType
         DataType: String
         Value: "Rdy_Bypass"
     - Name: Rdy_Check
+      Id: g=cf45d5681c77fc20331b21f0a5a68811
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=33cd4035645378915b63cc02f0071371
         Type: BaseDataVariableType
         DataType: String
         Value: "Rdy_Check"
     - Name: Rdy_Disable
+      Id: g=50db3c1b73a438aca7d077a69aaf4fe4
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=eeaea1bebffe2a34087b6f082d2f7efc
         Type: BaseDataVariableType
         DataType: String
         Value: "Rdy_Disable"
     - Name: Rdy_Enable
+      Id: g=9572a6978c4d9470a1b785a3909e18fd
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=e3d547acc240307cecdc571abe0468d3
         Type: BaseDataVariableType
         DataType: String
         Value: "Rdy_Enable"
     - Name: Rdy_Reset
+      Id: g=22d30ec9f24804484c0058c950efa2a8
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=2962f378a5d519f0df1ca0a5105d8df8
         Type: BaseDataVariableType
         DataType: String
         Value: "Rdy_Reset"
     - Name: Rdy_ResetAckAll
+      Id: g=7c0a76f0a7ea900e451342747740ec82
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=77363a3feb216181b2bf28bb60c90a64
         Type: BaseDataVariableType
         DataType: String
         Value: "Rdy_ResetAckAll"
     - Name: P_Motor
+      Id: g=1920ff0aeb7ba881ff7f6e44d0c7c087
       Type: EthernetIPTag
       DataType: Boolean
       Value: false
       Children:
       - Name: SymbolName
+        Id: g=9f9a21b98f27a9201ed30c5609a2c922
         Type: BaseDataVariableType
         DataType: String
         Value: "P_Motor"

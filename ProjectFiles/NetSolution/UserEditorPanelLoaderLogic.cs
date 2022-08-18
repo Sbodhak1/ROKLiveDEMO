@@ -8,6 +8,7 @@ using FTOptix.NetLogic;
 using FTOptix.OPCUAServer;
 using FTOptix.UI;
 using FTOptix.Retentivity;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class UserEditorPanelLoaderLogic : BaseNetLogic

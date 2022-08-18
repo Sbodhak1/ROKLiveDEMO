@@ -1,21 +1,26 @@
 Name: TagImporter
+Id: g=72635e71c2550385fc4870f4e5159e02
 Type: EthernetIPTagImporter
 OwnerId: ns=2;g=346f841a8bed76bdc1453d634a3e2b43
 Children:
 - Name: FilePath
+  Id: g=0e27124510952b0d14315e3f927a35e4
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
   Value: ""
 - Name: Mode
+  Id: g=953a2500cdba4d22766dbbe8ced9e712
   Type: BaseDataVariableType
   DataType: FetchModes
   Value: 1
 - Name: IgnoredPLCItems
+  Id: g=6860ec151ec2923afc73d40939ef7712
   Type: BaseDataVariableType
   DataType: BaseDataType
   ValueRank: OneDimension
   ArrayDimensions: [0]
 - Name: IgnoredHMIItems
+  Id: g=df07346e58fb2a11ca3472681ffbf8b4
   Type: BaseDataVariableType
   DataType: NodeId
   ValueRank: OneDimension

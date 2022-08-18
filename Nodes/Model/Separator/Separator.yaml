@@ -1,4 +1,5 @@
 Name: Separator
+Id: g=941dd43588cb2d4148b59702cf944949
 Type: FolderType
 Children:
 - Name: flowMeter
@@ -9,46 +10,55 @@ Children:
   Value: 8.0
   Children:
   - Name: EURange
+    Id: g=847df0189c5fe1396895bdbe2736a991
     Type: RangeType
     DataType: EURange
     Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
     Children:
     - Name: Low
+      Id: g=83542081974d0622b09fec92b3458f2e
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 0.0
     - Name: High
+      Id: g=da0488540d16387ac502b7746c7e366f
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 15.0
   - Name: EngineeringUnits
+    Id: g=e7ceb05909fc16a97fcf19b3ef789dbb
     Type: EUInformationType
     DataType: EUInformation
     Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
     Children:
     - Name: UnitId
+      Id: g=53953e108b28511d3d7d1dafdafae317
       Type: BaseVariableType
       DataType: Int32
       ReferenceType: HasProperty
       Value: 5067080
     - Name: DisplayName
+      Id: g=8aaf479797a537317894ad02a54acafd
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Description
+      Id: g=b3ce6f0169422ca4ba7cb5306d3c44a3
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: DynamicLink
+    Id: g=37006ca73fb6d0ddb270da073d229b0c
     Type: DataBind
     DataType: NodePath
     Value: "../../../CommDrivers/EthernetIPDriver/EthernetIPStation/Tags/FI102"
     Children:
     - Name: Mode
+      Id: g=52278a17530ffb6619a01841d2e7ba1a
       Type: BaseVariableType
       DataType: DataBindModeType
       Value: 2
@@ -60,46 +70,55 @@ Children:
   Value: 51.0
   Children:
   - Name: EURange
+    Id: g=8bf1666f7f5426480ce0c0e4cf79b7ca
     Type: RangeType
     DataType: EURange
     Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
     Children:
     - Name: Low
+      Id: g=11ca454b4ea79e3194cb31f5db66a79b
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 0.0
     - Name: High
+      Id: g=be42f668ab3b4ba07d0243c9c92488cd
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 15.0
   - Name: EngineeringUnits
+    Id: g=c0f7231a9ee3389eb36330b09e85100b
     Type: EUInformationType
     DataType: EUInformation
     Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
     Children:
     - Name: UnitId
+      Id: g=9e0aa06292bbe7ed11d0ae1f28ba0e1e
       Type: BaseVariableType
       DataType: Int32
       ReferenceType: HasProperty
       Value: 4342098
     - Name: DisplayName
+      Id: g=5b578a288d5eb3aba13e6e973c795b76
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Description
+      Id: g=3010a6b6b7b660520578b8ecd96a6a5f
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: DynamicLink
+    Id: g=218be4751dbddba208d824ff570f697d
     Type: DataBind
     DataType: NodePath
     Value: "../../../CommDrivers/EthernetIPDriver/EthernetIPStation/Tags/PI102"
     Children:
     - Name: Mode
+      Id: g=cb47689874e8b91a5276cf833e9e1066
       Type: BaseVariableType
       DataType: DataBindModeType
       Value: 2
@@ -111,46 +130,55 @@ Children:
   Value: 60.0
   Children:
   - Name: EURange
+    Id: g=42d5d0fe610a785f3509d059fb0b338a
     Type: RangeType
     DataType: EURange
     Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
     Children:
     - Name: Low
+      Id: g=118a353af89d6ee8a3d1f3ee63d78a8e
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 0.0
     - Name: High
+      Id: g=c83f86f3c8b7ff0b9a4ba0470488845c
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 6000.0
   - Name: EngineeringUnits
+    Id: g=00ee0ec21adb80564012659dee008dc3
     Type: EUInformationType
     DataType: EUInformation
     Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
     Children:
     - Name: UnitId
+      Id: g=221f2209c677bfbf03dc8ddf50f33321
       Type: BaseVariableType
       DataType: Int32
       ReferenceType: HasProperty
       Value: 5394509
     - Name: DisplayName
+      Id: g=e8d83d141ea998eb5b7ba579d8314bd0
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Description
+      Id: g=9fe2490e9e7673c1130b973e2c7570ab
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: DynamicLink
+    Id: g=134bfbe9ef79e7abca2c8fd37bdf9cf4
     Type: DataBind
     DataType: NodePath
     Value: "../../../CommDrivers/EthernetIPDriver/EthernetIPStation/Tags/VI101"
     Children:
     - Name: Mode
+      Id: g=134314e4add5960787f9189d5296ee2f
       Type: BaseVariableType
       DataType: DataBindModeType
       Value: 2
@@ -162,46 +190,55 @@ Children:
   Value: 30.0
   Children:
   - Name: EURange
+    Id: g=c4540b6a4079e697365cbf2d066b5c74
     Type: RangeType
     DataType: EURange
     Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
     Children:
     - Name: Low
+      Id: g=44ed104ca0f37b26b086e83ab74a272b
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 0.0
     - Name: High
+      Id: g=2bcd2838f2bf234ca6d3dc3d6467dede
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 15.0
   - Name: EngineeringUnits
+    Id: g=8ed6bb4fd1f366be557d69b59d8907dd
     Type: EUInformationType
     DataType: EUInformation
     Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
     Children:
     - Name: UnitId
+      Id: g=2850d6da94801a3dc1b6336925c566e8
       Type: BaseVariableType
       DataType: Int32
       ReferenceType: HasProperty
       Value: 4279632
     - Name: DisplayName
+      Id: g=f81e2d5f36d1c9dbe4a3c1450b316fa4
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Description
+      Id: g=c984dfafaad2b012a211021c7c95dc8d
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: DynamicLink
+    Id: g=c7b182c5203831aaa419afa6a1756161
     Type: DataBind
     DataType: NodePath
     Value: "../../../CommDrivers/EthernetIPDriver/EthernetIPStation/Tags/II101"
     Children:
     - Name: Mode
+      Id: g=68d87143ce1ee4d2ef36314c057427f3
       Type: BaseVariableType
       DataType: DataBindModeType
       Value: 2
@@ -214,11 +251,13 @@ Children:
   Value: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
   Children:
   - Name: DynamicLink
+    Id: g=6c483905d8ce1d8a1c09b93382950362
     Type: DataBind
     DataType: NodePath
     Value: "../../../CommDrivers/EthernetIPDriver/EthernetIPStation/Tags/Seperator_State"
     Children:
     - Name: Mode
+      Id: g=f2a5b8101e70b18efb254969afebd6c1
       Type: BaseVariableType
       DataType: DataBindModeType
       Value: 2

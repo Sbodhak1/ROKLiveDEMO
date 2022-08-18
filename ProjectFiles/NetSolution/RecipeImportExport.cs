@@ -14,6 +14,7 @@ using FTOptix.HMIProject;
 #endregion
 using System.Globalization;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 
 public class RecipeImportExport : BaseNetLogic {
     [ExportMethod]

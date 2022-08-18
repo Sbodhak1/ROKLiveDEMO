@@ -4,6 +4,7 @@ using FTOptix.NetLogic;
 using System;
 using UAManagedCore;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class RecipesEditorOutputMessageLogic : BaseNetLogic {

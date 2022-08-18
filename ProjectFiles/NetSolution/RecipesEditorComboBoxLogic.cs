@@ -5,6 +5,7 @@ using FTOptix.Recipe;
 using FTOptix.UI;
 using UAManagedCore;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class RecipesEditorComboBoxLogic : BaseNetLogic {

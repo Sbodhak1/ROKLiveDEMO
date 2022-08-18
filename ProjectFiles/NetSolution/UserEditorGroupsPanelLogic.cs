@@ -9,6 +9,7 @@ using FTOptix.UI;
 using System.Collections.Generic;
 using System.Linq;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class UserEditorGroupsPanelLogic : BaseNetLogic

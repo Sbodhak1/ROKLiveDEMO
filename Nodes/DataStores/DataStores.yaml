@@ -1,4 +1,5 @@
 Name: DataStores
+Id: g=2c1db71d4d447853771477e8961aa9fc
 Type: FolderType
 Children:
 - Name: EmbeddedDatabase
@@ -6,9 +7,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=3eb701946c0713f0e8e557cb06f08535
     Type: BaseObjectType
     Children:
     - Name: DataLogger
+      Id: g=68b8331da52c8986dfdf7aaf5d3ee987
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -24,41 +27,51 @@ Children:
         Target: ns=21;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=26dac82291f28a6669172cfc99439f9e
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=c3638b2b86da4da31e820057d9f25294
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: flowMeter
+          Id: g=0bd2d498fdb3ba4d84f1779cc20c59f6
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: temperatureSensor
+          Id: g=0e56f4ffa2500c6ef882f45955f7f036
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: levelProbe
+          Id: g=39a33a49664a134d4aa4e01e9ecfa553
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: flowMeter1
+          Id: g=301ca544467aba5b82d6b07b5138f7c0
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: pressureSensor
+          Id: g=0a59f5bfabd00bbb1756f6a03d506729
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: velocity
+          Id: g=cd78cb76f15db70899615fee7690a305
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: current
+          Id: g=002a02c51fee0327bf9d407b62c16eb8
           Type: StoreColumn
           DataType: Float
           Value: 0.0
     - Name: AlarmsEventLogger1
+      Id: g=04d8139591c02ee6e42389458cf695ed
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -74,57 +87,71 @@ Children:
         Target: ns=21;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=55d7ec113b524e7c84ad2bd374f165cd
         Type: BaseObjectType
         Children:
         - Name: ActiveState_Id
+          Id: g=97c5f88b482d5290d2a2c8a4a34c364b
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: AckedState_Id
+          Id: g=6f3286e7ab89d87f2ebc2796579667e3
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConfirmedState_Id
+          Id: g=2490cb234bcd68fd7365fc9513f30310
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConditionName
+          Id: g=7a87cc815a63b222d8d0df96e6294b0d
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: EnabledState_Id
+          Id: g=dddf282e043f85ee343ec5043e2f22ca
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: SourceName
+          Id: g=90883fe840225cc9b3368b586fa44740
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Time
+          Id: g=25d2602fb3ee20de8d9b9de5bcbd093f
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
+          Id: g=c4f544df83657df004d3f15ea559721f
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: 'Message_it-IT'
+          Id: g=12bdda060d164ac4e4bfd60d29c1aa22
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: 'Message_zh-CN'
+          Id: g=d185557bea6d9a13c15e3123fd34da30
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Severity
+          Id: g=18bdac85cf1e2dae9416ce14fef62a0c
           Type: StoreColumn
           DataType: UInt16
           Value: 0
         - Name: LocalTime
+          Id: g=fa201065eb63f5b8d724dd8523d7c966
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
     - Name: RecipeSchema
+      Id: g=78e50a99c07933a857fca864d53e72e4
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -140,13 +167,16 @@ Children:
         Target: ns=21;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=9e3cc0cf5d75d7b0db166b9505f1b9a9
         Type: BaseObjectType
         Children:
         - Name: Name
+          Id: g=b9bac11417974411a80540f695bd1943
           Type: StoreColumn
           DataType: String
           Value: ""
     - Name: FillerRecipe
+      Id: g=d87631b6a4f337e78f0f1292400b6357
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -162,45 +192,56 @@ Children:
         Target: ns=21;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=fa1189622c7653fa3b8d3b1cc3435844
         Type: BaseObjectType
         Children:
         - Name: Name
+          Id: g=be5371a97f89030456e5fb71267ffa48
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: /FillerHeads/FillerHead1/bottleClampPressureSetpoint
+          Id: g=1295b477c993f335a665c6603b3b7007
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /FillerHeads/FillerHead1/bottleSlowFillSetpoint
+          Id: g=0413ab09f25ced5f522492bf6c0b81f5
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /FillerHeads/FillerHead1/bottleStopFillSetpoint
+          Id: g=56c20ec203907a391e9e28cbe7c32290
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /FillerHeads/FillerHead2/bottleClampPressureSetpoint
+          Id: g=94a4cec658366e37343299bf52d77a8b
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /FillerHeads/FillerHead2/bottleSlowFillSetpoint
+          Id: g=4902330f67c9125efaac3f932af4715c
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /FillerHeads/FillerHead2/bottleStopFillSetpoint
+          Id: g=5319e6b96a1f0e96a4add456f561b06e
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /FillerHeads/FillerHead3/bottleClampPressureSetpoint
+          Id: g=db909e44e81811c0d6d96993c27b177e
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /FillerHeads/FillerHead3/bottleSlowFillSetpoint
+          Id: g=d7c2ceeb49e74004750852e5a1156891
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: /FillerHeads/FillerHead3/bottleStopFillSetpoint
+          Id: g=f41cbbb22f4ae7691cb909c98a9c448e
           Type: StoreColumn
           DataType: Int32
           Value: 0
@@ -211,16 +252,19 @@ Children:
     Target: ns=23;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=4cb1b3cb2bc614af1aecc597075445aa
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MaxColumnCount
+    Id: g=73063e4eeb31357e3ebef2116f8d591d
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: DataTypeCompatibilityMap
+    Id: g=5d6e6268f7d094976bda4434df57a13c
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
@@ -228,6 +272,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=f4893c8926fc2c8337417a5c8b8d7362
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read

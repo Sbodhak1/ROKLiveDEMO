@@ -1,28 +1,35 @@
 Name: Alarms
+Id: g=12d449b770a60cf900f5fae9afb370f0
 Type: FolderType
 Children:
 - Name: DigitalAlarm
+  Id: g=8d60a6ee8aa1d0aab6687db930a722d0
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
+    Id: g=926aef081d92f326d429abff8769bdc0
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=f93259d81d4b97995c23b7d1c2d42547
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=4590672eab4eba1474c58676ad704480
       Type: DataBind
       DataType: NodePath
       Value: "../../../Model/AlarmsVariables/RotaryFillerHead3"
       Children:
       - Name: Mode
+        Id: g=52067afb946b61b3778edad3b81d23e4
         Type: BaseVariableType
         DataType: DataBindModeType
         Value: 2
   - Name: LastEvent
+    Id: g=819f7deb4015096217999f5e82ddf024
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -37,31 +44,38 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: Message
+    Id: g=2cab306339a23b03aa091eac863f0f73
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":34,"TextId":"Setpoint out of scale"}
   - Name: Severity
+    Id: g=4e7a3f1e6941b68ee9ebccc97716414f
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 2
 - Name: AnalogAlarm
+  Id: g=a1ae006f839fee6e21b0f6209250a041
   Type: ExclusiveLevelAlarmController
   Children:
   - Name: InputValue
+    Id: g=df21452d0618dbfc698e390716cddac5
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=66ccfe3a1e899755d8faea5f5ff4ac94
       Type: DataBind
       DataType: NodePath
       Value: "../../../Model/AlarmsVariables/InletTank"
       Children:
       - Name: Mode
+        Id: g=30c025d23cc4e55e1216627eae501b72
         Type: BaseVariableType
         DataType: DataBindModeType
         Value: 2
   - Name: LastEvent
+    Id: g=845c84fbc907e70c0c1bb4f7e1f5c64b
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -76,43 +90,53 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: HighLimit
+    Id: g=f639d5bfee8d7a4ccac7ecba4b53662f
     Type: BaseDataVariableType
     DataType: Double
     Value: 75.0
   - Name: HighHighLimit
+    Id: g=2ae07912b904bff47f1f179b36eca958
     Type: BaseDataVariableType
     DataType: Double
     Value: 75.0
   - Name: Message
+    Id: g=bf49414d360ac64d604eb746885ddd57
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":34,"TextId":"High Level"}
   - Name: Severity
+    Id: g=7c77e7c699fe7dea8ddd29294a8eb48e
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 2
 - Name: MotorAlarm
+  Id: g=5860b5b482b59ae7d08469b55163f3e7
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
+    Id: g=0bd232b3b4ae0a32d3be9ff7d627850d
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=7d96bed852a30dba6ed480bbeffd151a
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=df6c16e59cedfd119e65afeeca68a17b
       Type: DataBind
       DataType: NodePath
       Value: "../../../Model/Tank/motorStatusError"
       Children:
       - Name: Mode
+        Id: g=be67fd56f96f1a7328df7c6e38e2f138
         Type: BaseVariableType
         DataType: DataBindModeType
         Value: 2
   - Name: LastEvent
+    Id: g=ae34ae258a9012187c482eddab3e55a3
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -127,6 +151,7 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: Message
+    Id: g=bea7955896e747eb99af47cfcc897eb8
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":34,"TextId":"inletPumpAlarm"}

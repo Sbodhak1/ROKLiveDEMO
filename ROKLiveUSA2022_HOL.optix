@@ -136,5 +136,25 @@ Project:
    Uri: 'urn:FTOptix:EthernetIP:Net'
    Module: FTOptix.EthernetIP.Net
    Version: 1.0
+  35:
+   Uri: '84a2165c4f553094409cb3d3a9ffb33d#http://opcfoundation.org/UA/DI/'
+   ServerUri: 84a2165c4f553094409cb3d3a9ffb33d
+  36:
+   Uri: '84a2165c4f553094409cb3d3a9ffb33d#urn:FH887G3:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 84a2165c4f553094409cb3d3a9ffb33d
+  37:
+   Uri: '84a2165c4f553094409cb3d3a9ffb33d#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 84a2165c4f553094409cb3d3a9ffb33d
+  38:
+   Uri: '84a2165c4f553094409cb3d3a9ffb33d#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 84a2165c4f553094409cb3d3a9ffb33d
+  39:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.0
+  40:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.0
  Nodes:
  - File: Nodes/ROKLiveUSA2022_HOL.yaml

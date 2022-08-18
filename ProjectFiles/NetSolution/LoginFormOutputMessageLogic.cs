@@ -2,6 +2,7 @@
 using FTOptix.NetLogic;
 using UAManagedCore;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class LoginFormOutputMessageLogic : BaseNetLogic {

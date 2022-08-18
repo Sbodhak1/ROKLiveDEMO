@@ -1,4 +1,5 @@
 Name: NetLogic
+Id: g=b7c98a344e815167e33afbc7f31e7cec
 Type: FolderType
 Children:
 - Name: RecipeImportExport
@@ -7,28 +8,34 @@ Children:
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: RecipeSchema
+    Id: g=1ec20f494cf77b7aa161aad9788a3f02
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"cd4d03c609ea8406acec188da96b8cde","Namespace":34}
     Children:
     - Name: Kind
+      Id: g=239660c9c0be313bcc65b37eace9c72d
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":2,"Namespace":15}
   - Class: Method
     Name: Export
+    Id: g=2fa2eb7b72bbfee14bc003c27fe9fe8a
   - Class: Method
     Name: Import
+    Id: g=3b3bc54eb5a0da87a0ca3290cd33d87d
   - Name: CSVFile
     Id: g=11e12494736f98049ad51536a76d35d9
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: "file:///C:/Lab Files/Recipes/ROKLive2022.csv"
   - Name: CSVSeparator
+    Id: g=210655dbaa19e6243c1bc32d22d4748f
     Type: BaseDataVariableType
     DataType: String
     Value: ","
   - Name: WrapFields
+    Id: g=d5e24edf1ca09909304a104df88fb1ea
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false

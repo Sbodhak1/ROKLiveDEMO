@@ -1,4 +1,5 @@
 Name: Loggers
+Id: g=191c07a76b4b61b6ff75219dba79fb6e
 Type: FolderType
 Children:
 - Name: DataLogger
@@ -6,157 +7,192 @@ Children:
   Type: DataLogger
   Children:
   - Name: SamplingMode
+    Id: g=e1ea9341a8ac1861d822a455912c98e2
     Type: PropertyType
     DataType: SamplingModeEnum
     Value: 1
   - Name: Store
+    Id: g=8e853af041a6cab37e885c88715270d6
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"11e3e6483d2deb390fadeba8503310eb","Namespace":34}
     Children:
     - Name: Kind
+      Id: g=e5bc3e0bc55831e55c2a7930b7717cba
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":1,"Namespace":21}
   - Name: VariablesToLog
+    Id: g=f43cea19346ecfbfb5fe91bbe977dde0
     Type: BaseObjectType
     Children:
     - Name: flowMeter
+      Id: g=11319e624cf6c99dec1c286450f706fd
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=ea95ff0233c15532be14f27a71ef212d
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=db337238df33d52dde73d0c46d5c4dd7
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=84ea0fac3a483084092cac0ea79a8111
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=6c4a3d4552798aeba52fcf8cea943e03
         Type: DataBind
         DataType: NodePath
         Value: "../../../../Model/Tank/flowMeter"
         Children:
         - Name: Mode
+          Id: g=44aa4d65ba10dfa6acc0d60a5a6d4d94
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: temperatureSensor
+      Id: g=9f996cb36292096c48ff6577c239f16c
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=f146c9ef12bcbf9a93d5f4f664f82e53
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=4d11dce486c5cbd366c11475d739d084
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=c4dc65af7f47bc316df8814256508b78
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=64ced580d29bc58cba5d40d6d652342e
         Type: DataBind
         DataType: NodePath
         Value: "../../../../Model/Tank/temperatureSensor"
         Children:
         - Name: Mode
+          Id: g=91f13b17cbab3980096f64f7c7208bae
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: levelProbe
+      Id: g=cb853e748ff25d3fd40cbcbca7f56876
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=306d5ecdeb69e9dee2ca335805f40872
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=bb48986df3a0284d73b7a1a5ddc1e6c6
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=3394f32e10e70f6a2104b9f364822db9
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=5c8b4686edb743a14b87f5163962e069
         Type: DataBind
         DataType: NodePath
         Value: "../../../../Model/Tank/levelProbe"
         Children:
         - Name: Mode
+          Id: g=933307074e6f63f73c07eea61f253408
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: flowMeter1
+      Id: g=fa66ddabbbc04e4d0211525d1c0bfd67
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=9a5560f1455dcfc0421147ddf8a2aa50
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=270cfc9c29c3127d0a1b85e6d5370da1
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=32d8254f4513eeb908cd18483cf1c494
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=140cce1e15ce361263d73813b9846bdb
         Type: DataBind
         DataType: NodePath
         Value: "../../../../Model/Separator/flowMeter"
         Children:
         - Name: Mode
+          Id: g=484f019f650ac854fb98edd893d81eee
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: pressureSensor
+      Id: g=184db8274bef93a24539e481a00b9c17
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=88d21adc6e95431ab2987d4d652a19f5
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=22e7ee0b82bdd97ee047c793d3d975d4
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=ee0984db596d76d8a676b525509cb7e5
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=a180ea2e28d433f80cbdd999f94adb4c
         Type: DataBind
         DataType: NodePath
         Value: "../../../../Model/Separator/pressureSensor"
         Children:
         - Name: Mode
+          Id: g=1723c4fbd7be7fd8db3e59fc2403879b
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: velocity
+      Id: g=4614b9bc6925084c298555e5ccef9cd7
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -166,25 +202,30 @@ Children:
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=39e9a778319cc67b5892f88b8edff7f4
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=9fb4ee5bfb2621e952a859faa10983b5
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=f3f924b759ad7f60ef5026899621b544
         Type: DataBind
         DataType: NodePath
         Value: "../../../../Model/Separator/velocity"
         Children:
         - Name: Mode
+          Id: g=fe6bec2847e0f074cbf8c93ea91c5cfc
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: current
+      Id: g=a38640bd03a98d7006b429f829a415bd
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -194,21 +235,25 @@ Children:
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=141dfb6f970779af94585e4c7cdfd884
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=df17b957473063815c1fc9ec7863d4fe
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=13c0bac2c4efa41021699096f09f0fcb
         Type: DataBind
         DataType: NodePath
         Value: "../../../../Model/Separator/current"
         Children:
         - Name: Mode
+          Id: g=eb259d28415ad9059fb89b5e7e7da076
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
@@ -216,6 +261,7 @@ Children:
     Target: ns=13;i=21
     Direction: Forward
   - Name: LogLocalTime
+    Id: g=7fa3d87635d3e14ecdfcdd11ed1be3af
     Type: PropertyType
     DataType: Boolean
     Value: true
@@ -225,293 +271,361 @@ Children:
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: Enabled
+    Id: g=47872d14423c0b1d6e952f66c32e917a
     Type: PropertyType
     DataType: Boolean
     Value: true
   - Name: Store
+    Id: g=7d6ddd828f21a59f6096978d95b67f79
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"11e3e6483d2deb390fadeba8503310eb","Namespace":34}
     Children:
     - Name: Kind
+      Id: g=1c1f73b13e6cd7a879c9e2e58af11007
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":1,"Namespace":21}
     - Name: NodeClass
+      Id: g=3b4c47ad856c79fad8e1468d2566fb1e
       Type: PropertyType
       DataType: NodePointerNodeClass
       Value: 0
   - Name: EventFieldPaths
+    Id: g=ac7eccb67e2c9e7f42232acd2ef79210
     Type: BaseObjectType
     Children:
     - Name: ActiveState_Id
+      Id: g=bfa2da0f0f2ceaacad9967f05510e355
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:ActiveState/0:Id"
     - Name: AckedState_Id
+      Id: g=59726345973c74c6b557aa365ee20220
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:AckedState/0:Id"
     - Name: ConfirmedState_Id
+      Id: g=141e802bbbba99c6fb34e900afa8a88a
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:ConfirmedState/0:Id"
     - Name: ConditionName
+      Id: g=d92170cd92d86e7bcaaaf20b052fc898
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:ConditionName"
     - Name: EnabledState_Id
+      Id: g=d0a773f5c579f858d336e71457e6baa6
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:EnabledState/0:Id"
     - Name: SourceName
+      Id: g=62850aacd4ca1bd8163b3855ac7a84f4
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:SourceName"
     - Name: Time
+      Id: g=b2909e4eccfed72104f5ab6d243639ec
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:Time"
     - Name: Message
+      Id: g=3464fd950afcce7d4cb72ef289d21110
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:Message"
     - Name: Severity
+      Id: g=3b83b62642134d99f6f299080af52dba
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:Severity"
     - Name: LocalTime
+      Id: g=76a7f7b7b2db3fe9bcd9c756169881f4
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:LocalTime"
   - Name: EventConfigurations
+    Id: g=095bcde03f25106a74d4563fc2153441
     Type: BaseObjectType
     Children:
     - Name: EventConfiguration
+      Id: g=29855a50f5c331ec4c2a58a0aaa8b275
       Type: EventConfiguration
       Children:
       - Name: MonitorSubtree
+        Id: g=e38e7efa829d22a19d6afbd270d7d89c
         Type: PropertyType
         DataType: Boolean
         Value: false
       - Name: EventType
+        Id: g=5af3391ee21ce51400fffeb841aff894
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
         Value: {"Id":2915}
         Children:
         - Name: Kind
+          Id: g=767a6e8200c3a1571667693a3d99a85a
           Type: PropertyType
           DataType: NodeId
           Value: {"Id":2041}
         - Name: NodeClass
+          Id: g=034a95167b9e784b42dc1902f9236068
           Type: PropertyType
           DataType: NodePointerNodeClass
           Value: 1
   - Name: EventArguments
+    Id: g=e2602781230534a76dccfac67ddd85ff
     Type: BaseObjectType
     Children:
     - Name: ActiveState_Id
+      Id: g=b19d30cf0e55f24390db0c518db04b71
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
     - Name: AckedState_Id
+      Id: g=b415405d1a4e8136c6f2c80d65af0df0
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
     - Name: ConfirmedState_Id
+      Id: g=df02766adc8b65aa52cea8314ebfd52c
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
     - Name: ConditionName
+      Id: g=308f30865611c531dddcf4d1c37f9746
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: EnabledState_Id
+      Id: g=f34da6ef556fea8f1aa67d87a9b2ec6d
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
     - Name: SourceName
+      Id: g=4121e0ffaa78b9c4ed44d3fbdcec7968
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: Time
+      Id: g=9510396c2ba6d743230f3e186f2540f4
       Type: BaseDataVariableType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
     - Name: Message
+      Id: g=55feb66bd9508c63ec85ca7bf871b10e
       Type: BaseDataVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Severity
+      Id: g=5105f88f596aaeea767ee7408b16ef20
       Type: BaseDataVariableType
       DataType: UInt16
       Value: 0
     - Name: EventTypeId
+      Id: g=8f2be3ea70b87496c25e65c2baa583b4
       Type: BaseDataVariableType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: LocalTime
+      Id: g=822ffc8e7cc7b61a67424ffa0577bcc5
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
       Value: {"TypeId":{"Id":8912},"Body":{"offset":0,"daylightSavingInOffset":false}}
   - Name: EventFieldsToLog
+    Id: g=410824339fbb720304035f8e54ac21ba
     Type: BaseObjectType
     Children:
     - Name: ActiveState_Id
+      Id: g=84b45f12b484e38005043874f0dc0f06
       Type: EventFieldToLog
       DataType: Boolean
       Value: false
       Children:
       - Name: DataBind
+        Id: g=70258dedb00fba7a6bd3ee769ccb967b
         Type: DataBind
         DataType: NodePath
         Value: "../../EventArguments/ActiveState_Id"
         Children:
         - Name: Mode
+          Id: g=958e35c90d84d895a08342e771cafc94
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: AckedState_Id
+      Id: g=f8ba4a605912b35ebe3a6400f9987351
       Type: EventFieldToLog
       DataType: Boolean
       Value: false
       Children:
       - Name: DataBind
+        Id: g=863ffc4aa7503cfbccf4641c480a112b
         Type: DataBind
         DataType: NodePath
         Value: "../../EventArguments/AckedState_Id"
         Children:
         - Name: Mode
+          Id: g=bd843246ace66931cebb279ab30401dd
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: ConfirmedState_Id
+      Id: g=04b402e18c04cef01d365e9756df0d7d
       Type: EventFieldToLog
       DataType: Boolean
       Value: false
       Children:
       - Name: DataBind
+        Id: g=345fed573013dbd8a1a22f7476408414
         Type: DataBind
         DataType: NodePath
         Value: "../../EventArguments/ConfirmedState_Id"
         Children:
         - Name: Mode
+          Id: g=9c700649f5c6ca81aa7891cded88b4e4
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: ConditionName
+      Id: g=aea64774ff9ee62214c6facc15cfb27d
       Type: EventFieldToLog
       DataType: String
       Value: ""
       Children:
       - Name: DataBind
+        Id: g=d6a64ba0d4b70d3112112b9fc1451f03
         Type: DataBind
         DataType: NodePath
         Value: "../../EventArguments/ConditionName"
         Children:
         - Name: Mode
+          Id: g=ddcf1094a9d05782ae77f8a48e6b7349
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: EnabledState_Id
+      Id: g=cac7cb79c05a3fc1158a6dc9e5c3e3dd
       Type: EventFieldToLog
       DataType: Boolean
       Value: false
       Children:
       - Name: DataBind
+        Id: g=66d2967b636d4e6ea21729309fa4ba42
         Type: DataBind
         DataType: NodePath
         Value: "../../EventArguments/EnabledState_Id"
         Children:
         - Name: Mode
+          Id: g=be05a1e91aaf73c933930bc5195bf835
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: SourceName
+      Id: g=585c7942ae0611f325e142ad08b9aeb3
       Type: EventFieldToLog
       DataType: String
       Value: ""
       Children:
       - Name: DataBind
+        Id: g=6f3e194e9d1c8b7b5ea935a7ce0b4ea6
         Type: DataBind
         DataType: NodePath
         Value: "../../EventArguments/SourceName"
         Children:
         - Name: Mode
+          Id: g=a14b469be1b8c89470be2ea40ba80f7d
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: Time
+      Id: g=3c41f7060cea861c55849c52ef1f6366
       Type: EventFieldToLog
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DataBind
+        Id: g=5fa18c5a7fe8a5e69eaafc68bf3ad686
         Type: DataBind
         DataType: NodePath
         Value: "../../EventArguments/Time"
         Children:
         - Name: Mode
+          Id: g=1eb9d4c67ae094389dd37de12db3a304
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: Message
+      Id: g=15d36ff7770817bf455fd7e2de70a6af
       Type: EventFieldToLog
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DataBind
+        Id: g=b26d85d0b6f8f65d087784075b45d991
         Type: DataBind
         DataType: NodePath
         Value: "../../EventArguments/Message"
         Children:
         - Name: Mode
+          Id: g=2f8a1e1ce6c7872839b677a4010c5557
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: Severity
+      Id: g=b082355efff63bd719dc7f84e8caef6f
       Type: EventFieldToLog
       DataType: UInt16
       Value: 0
       Children:
       - Name: DataBind
+        Id: g=26078066b0dc5a07c3b54cbced1612d8
         Type: DataBind
         DataType: NodePath
         Value: "../../EventArguments/Severity"
         Children:
         - Name: Mode
+          Id: g=860b44b26eba61be6375d7c052f30701
           Type: BaseVariableType
           DataType: DataBindModeType
           Value: 2
     - Name: LocalTime
+      Id: g=e49b65d709f3f458b07b80b0c32f3899
       Type: EventFieldToLog
       DataType: DateTime
       Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: ExpressionEvaluator1
+        Id: g=20db83efa19f9813bb2e6fc2a0988c61
         Type: ExpressionEvaluator
         Children:
         - Name: Expression
+          Id: g=883f47143f6aef3574020a9c91bcf730
           Type: BaseDataVariableType
           DataType: String
           ReferenceType: HasParameter
           Value: "{0} + {1}"
         - Name: ns=3;Source0
+          Id: g=2dab6e15003bae0e450f356dab51e7e9
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
+            Id: g=a2124a3d2ae92f213537267a60c9eda8
             Type: DataBind
             DataType: NodePath
             Value: "../../../../EventArguments/Time"
         - Name: ns=3;Source1
+          Id: g=8a1ead8603a7ef3f7f048e949bbd1a4a
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
+            Id: g=057159adc9b90cbc99bf7785e1c719ea
             Type: DataBind
             DataType: NodePath
             Value: "../../../../EventArguments/LocalTime"
